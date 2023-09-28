@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomowork</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  />
+  <link rel="icon" href="./img/Lo.png">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  </style>
+</head>
+<body class="m-auto min-h-screen bg-[#23E4FF]">
+    <!-- Header -->
+    <header class="bg-purple-600 text-white p-3">
+        <div class="sm:max-w-4xl m-auto flex items-center justify-between">
+        <div class="flex items-center sm:gap-x-3 gap-x-2">
+            <img src="./img/Lo.png" class="w-1/6 h-auto sm:w-1/12">
+            <h1 class="text-2xl sm:text-4xl">Pomowork</h1>
+        </div>
+        <div class=" sm:gap-x-6 sm:text-3xl flex gap-x-3 text-[5vw] items-center">
+            <a href="./about.html">About</a>
+            <a href="https://github.com/AmirrezaAPTech">Contact</a>
+        </div>
+    </div>
+    </header>
+    <!-- Main -->
+    <main class="sm:max-w-5xl m-auto min-h-screen">
+        <section class="main__banner my-16">
+            <a href="#Tracker"><img src="./img/Banner.png" alt="Banner" class="rounded-2xl max-w-[90%] mx-auto shadow-[0_3px_10px_rgba(0,0,0,1)]"></a>
+        </section>
+        <section class="main__tracker rounded-2xl bg-purple-500 text-center text-white tracking-wide p-4 my-16 relative max-w-[95%] mx-auto">
+            <div class="tracker-type absolute right-3"><select class="select-tracker-type text-black w-16 sm:w-auto">
+                <option value="25min Focus">25min Focus</option>
+                <option value="5min Short Break">5min Short Break</option>
+                <option value="15min Long Break">15min Long Break</option>
+            </select></div>
+            <div class="timer sm:text-7xl text-6xl my-4"><h1 class="">25:00</h1></div>
+            <div class="buttons flex justify-around my-12 mx-auto">
+                <button class="startBtn py-1 px-3 text-xl bg-transparent border border-solid border-white rounded-3xl cursor-pointer transition-transform duration-1000 hover:scale-125">Start</button>
+                <button class="pauseBtn px-3 text-xl bg-transparent border border-solid border-white rounded-3xl cursor-pointer transition-transform duration-1000 hover:scale-125">Pause</button>
+                <button class="resetBtn px-3 text-xl bg-transparent border border-solid border-white rounded-3xl cursor-pointer transition-transform duration-1000 hover:scale-125">Reset</button>
+            </div>
+            <div class="status"><p>Todays Total Pomodoro : 0</p></div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-purple-600 text-white p-2 flex justify-center items-center">
+        <p class="text-lg sm:text-2xl">made with <i class="fa-solid fa-heart"></i> and <i class="fa-solid fa-mug-hot"></i> by <a href="https://github.com/AmirrezaAPTech" class="underline">AmirrezaAP</a></p>
+    </footer>
+
+    <script src="./Scripts/main.js"></script>
+</body>
+</html>
