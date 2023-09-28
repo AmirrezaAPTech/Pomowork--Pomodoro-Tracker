@@ -26,7 +26,9 @@ Pomowork is a website that helps you track your Pomodoro sessions. It is built u
 7. The total number of Pomodoro sessions completed in a day will be displayed at the bottom of the tracker.
 
 ## Contributing
+
 Contributions are welcome! If you have any suggestions or improvements for this project, feel free to submit a pull request.
 
-Acknowledgements
--Font Awesome for the icons used in the project.
+## Acknowledgements
+
+- [Font Awesome](https://fontawesome.com/) for the icons used in the project.
